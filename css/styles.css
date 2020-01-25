@@ -20,18 +20,15 @@ nav {
 	height: 100px;
 }
 
-header {
-	background: url(../images/header.jpg) no-repeat center top / cover;
-	padding-bottom: 200px;
-}
-
 header.zero{
 	background: #F5F5F5;
 	padding-bottom: 0;
 }
 
-header section {
-	padding-top: 140px;
+.home {
+	background: url(../images/header.jpg) no-repeat center top / cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 td > button > i{
