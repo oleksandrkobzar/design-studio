@@ -5,7 +5,7 @@ class Router
     private $routes;
 
     public  function __construct() {
-        $routesPath = ROOT.'/config/routes.php';
+        $routesPath = ROOT .'/config/routes.php';
         $this->routes = include($routesPath);
     }
 
@@ -17,7 +17,9 @@ class Router
 
     public function run () {
         $uri = $this->getURI();
-
+        $uri = explode('/', $uri);
+        $uri = $uri[1];
+        
         foreach ($this->routes as $uriPattern => $path) {
             if (preg_match("~$uriPattern~", $uri)) {
 
@@ -29,9 +31,8 @@ class Router
 
                 $actionName = 'action'.ucfirst(array_shift($segments));
                 $parameters = $segments;
-                
+
                 $controllerFile = ROOT . '/controllers/' .$controllerName . '.php';
-                $internalRoute = preg_replace("~$uriPattern~", $path, $uri);
 
                 if (file_exists($controllerFile)) {
                     include_once ($controllerFile);

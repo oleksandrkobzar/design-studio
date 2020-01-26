@@ -1,3 +1,7 @@
+<?
+    include(ROOT ."/views/head.php");
+    include(ROOT ."/views/header.php");
+?>
 <section class="home">
     <div class="container">
         <div class="describe">
@@ -78,14 +82,14 @@
 <section id="work" class="project-finished">
     <div class="container">
         <div class="row">
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-1.png" alt="portfolio-1"></div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-2.png" alt="portfolio-2"></div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-3.png" alt="portfolio-3"></div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-4.png" alt="portfolio-4"></div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-5.png" alt="portfolio-5"></div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-6.png" alt="portfolio-6"></div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-7.png" alt="portfolio-7"></div>
-            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo ROOTPATH;?>/images/portfolio-8.png" alt="portfolio-8"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-1.png" alt="portfolio-1"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-2.png" alt="portfolio-2"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-3.png" alt="portfolio-3"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-4.png" alt="portfolio-4"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-5.png" alt="portfolio-5"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-6.png" alt="portfolio-6"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-7.png" alt="portfolio-7"></div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3"><img src="<?echo SRCPATH;?>/images/portfolio-8.png" alt="portfolio-8"></div>
         </div>
     </div>
 </section>
@@ -227,3 +231,6 @@
         </form>
     </div>
 </section>
+<?
+    include(ROOT ."/views/footer.php");
+?>
