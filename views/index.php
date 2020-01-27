@@ -20,7 +20,7 @@
             A you under Seed appear which good give. Own give air without fowl moveth dry first
             heaven fruit, dominion she'd won't very all.
         </p>
-        <img src="<?echo ROOTPATH;?>/images/about-us.png" alt="podpis">
+        <img src="<?echo SRCPATH;?>/images/about-us.png" alt="podpis">
     </div>
 </section>
 <section class="professional-skills">
@@ -192,11 +192,11 @@
 </section>
 <section class="clients">
     <div class="container">
-        <img src="images/handmade.jpg" alt="handmade">
-        <img src="images/mountain.jpg" alt="mountain">
-        <img src="images/collection.jpg" alt="collection">
-        <img src="images/mountainbike.jpg" alt="mountainbike">
-        <img src="images/handmade.jpg" alt="handmade">
+        <img src="<?echo SRCPATH;?>/images/handmade.jpg" alt="handmade">
+        <img src="<?echo SRCPATH;?>/images/mountain.jpg" alt="mountain">
+        <img src="<?echo SRCPATH;?>/images/collection.jpg" alt="collection">
+        <img src="<?echo SRCPATH;?>/images/mountainbike.jpg" alt="mountainbike">
+        <img src="<?echo SRCPATH;?>/images/handmade.jpg" alt="handmade">
     </div>
 </section>
 <section class="need-a-project" id="need-a-project">
@@ -204,7 +204,7 @@
         <h1>Need a Project?</h1>
         <p>Let us know what you're looking for in an agency. We'll take a look and see
             if this could be the start of something beautiful.</p>
-        <form class="form-message">
+        <form class="form-message" action="post">
             <div class="row">
                 <div class="col">
                     <div class="form-group">

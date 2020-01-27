@@ -1,3 +1,7 @@
+<?
+    include(ROOT ."/views/head.php");
+    include(ROOT ."/views/header.php");
+?>
 <section class="contact">
     <div class="container">
         <div class="row">
@@ -46,3 +50,6 @@
         </div>
     </div>
 </section>
+<?
+    include(ROOT ."/views/footer.php");
+?>

@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-md fixed-top">
-        <a href="<?echo SRCPATH;?>/" class="navbar-brand d-flex align-items-center">
+        <a href="<?echo SRCPATH;?>/index" class="navbar-brand d-flex align-items-center">
             <img src="<?echo SRCPATH;?>/images/logo.png" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,3 +1,7 @@
+<?
+    include(ROOT ."/views/head.php");
+    include(ROOT ."/views/header.php");
+?>
 <section class="about-header">
     <div class="container">
         <h1>Amelia Woods</h1>
@@ -50,8 +54,11 @@
                     So the above May stars cattle fruitful face shall. Tree it, winged.
                     Every signs male firmament us. Morning him.
                 </p>
-                <img src="<?echo ROOTPATH;?>/images/about-us.png" alt="podpis">
+                <img src="<?echo SRCPATH;?>/images/about-us.png" alt="podpis">
             </div>
         </div>
     </div>
 </section>
+<?
+    include(ROOT ."/views/footer.php");
+?>
