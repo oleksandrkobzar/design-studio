@@ -20,7 +20,7 @@ nav {
 	height: 100px;
 }
 
-header.zero{
+header.zero {
 	background: #F5F5F5;
 	padding-bottom: 0;
 }
@@ -31,7 +31,7 @@ header.zero{
 	padding-bottom: 200px;
 }
 
-td > button > i{
+td>button>i {
 	color: #ffffff;
 }
 
@@ -42,14 +42,14 @@ td > button > i{
 }
 
 .describe h1 {
-	text-align: left;	
+	text-align: left;
 	color: #1D1D1D;
 }
 
 .describe h5 {
 	font-size: 18px;
 	line-height: 28px;
-	text-align: left;	
+	text-align: left;
 	color: #787878;
 }
 
@@ -72,10 +72,9 @@ td > button > i{
 .menu li a {
 	font-size: 12px;
 	font-weight: bold;
-	/*font-family: "Montserrat";*/
 	color: #191919;
 	text-transform: uppercase;
-	padding:6px 15px;
+	padding: 6px 15px;
 }
 
 .menu li a:hover {
@@ -119,7 +118,7 @@ td > button > i{
 	margin-bottom: 0;
 }
 
-.skills-item p{
+.skills-item p {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: bold;
@@ -127,9 +126,9 @@ td > button > i{
 }
 
 .professional-skills-left .progress {
-    height: 3px;
-    width: 400px;
-    background-color: #F0F0F0;
+	height: 3px;
+	width: 400px;
+	background-color: #F0F0F0;
 }
 
 progress::-webkit-progress-bar {
@@ -172,19 +171,19 @@ progress::-webkit-progress-value {
 	font-weight: bold;
 }
 
-.project-finished img{
+.project-finished img {
 	max-width: 340px;
 	max-height: 300px;
 	width: 100%;
 	height: 100%;
 }
 
-.project-finished .col:hover{
+.project-finished .col:hover {
 	opacity: 0.7;
 }
 
 .project-finished .col-lg-3 {
-	padding:0;
+	padding: 0;
 }
 
 .project-finished .more-work {
@@ -241,7 +240,7 @@ progress::-webkit-progress-value {
 	line-height: 36px;
 	max-width: 700px;
 	padding: 0 15px;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
 .testimonials .container p.name-author {
@@ -251,15 +250,15 @@ progress::-webkit-progress-value {
 	margin: 20px auto 100px;
 }
 
-.clients .container{
+.clients .container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	padding: 30px 0; 
+	padding: 30px 0;
 }
 
 .clients img {
-	margin:30px;
+	margin: 30px;
 }
 
 .need-a-project {
@@ -269,7 +268,7 @@ progress::-webkit-progress-value {
 
 .need-a-project p {
 	max-width: 500px;
-	margin:0 auto;
+	margin: 0 auto;
 	padding: 10px;
 	text-align: center;
 	font-size: 15px;
@@ -279,7 +278,7 @@ progress::-webkit-progress-value {
 
 .form-message {
 	max-width: 700px;
-	margin:0 auto;
+	margin: 0 auto;
 	padding: 15px;
 	text-align: center;
 }
@@ -310,7 +309,7 @@ progress::-webkit-progress-value {
 
 footer {
 	display: flex;
-	align-items:center;
+	align-items: center;
 	background-color: #141414;
 	padding: 100px 0;
 	color: #bcbcbc;
@@ -327,7 +326,7 @@ footer a:hover {
 
 footer .name-corporation {
 	font-size: 18px;
-	color:#ffffff;
+	color: #ffffff;
 }
 
 /***************** CONTACT **************************/
@@ -337,7 +336,7 @@ footer .name-corporation {
 	padding: 100px 0;
 }
 
-.contact h1{
+.contact h1 {
 	text-align: left;
 	padding-left: 10px;
 }
@@ -364,9 +363,7 @@ footer .name-corporation {
 	width: 100%;
 }
 
-
 /*************** ABOUT ************************/
-
 
 .about-me {
 	background-color: #F5F5F5;
@@ -385,11 +382,10 @@ footer .name-corporation {
 }
 
 .about-header .container {
-	background-color: rgba(100,100,100,0.8);
+	background-color: rgba(100, 100, 100, 0.8);
 }
 
 .about-me-right {
-	
 	padding: 140px 50px;
 }
 
@@ -402,25 +398,49 @@ footer .name-corporation {
 }
 
 #pg-up-button {
+	position: fixed;
   position: fixed; 
+	position: fixed;
+  position: fixed; 
+	position: fixed;
+	position: fixed;
+	position: fixed;
+	bottom: 25px;
+	bottom: 25px;
+	bottom: 25px;
   bottom: 25px; 
+	bottom: 25px;
+  bottom: 25px; 
+	bottom: 25px;
+	right: 10px;
   right: 10px; 
-  cursor:pointer; 
-  display:none;
-  width: 30px;
-  height: 30px;
-  background: #333;
-  border: none;
-  border-radius:50%;
-  color: #ffffff;
+	right: 10px;
+  right: 10px; 
+	right: 10px;
+	right: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	width: 30px;
+	height: 30px;
+	background: #333;
+	border: none;
+	border-radius: 50%;
+	color: #ffffff;
 }
 
 #pg-up-button i {
 	margin: 6px 8px;
 }
- 
+
 #pg-up-button:hover {
+	background: #10C9C3;
   background: #10C9C3; 
+	background: #10C9C3;
+  background: #10C9C3; 
+	background: #10C9C3;
+	background: #10C9C3;
+	background: #10C9C3;
 }
 
 .carousel-item {
@@ -436,7 +456,7 @@ footer .name-corporation {
 	padding: 80px 0;
 }
 
-.admin-header h1{
+.admin-header h1 {
 	color: #ffffff;
 	opacity: 0.5;
 	z-index: 100;

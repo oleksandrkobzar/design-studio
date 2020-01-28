@@ -204,30 +204,30 @@
         <h1>Need a Project?</h1>
         <p>Let us know what you're looking for in an agency. We'll take a look and see
             if this could be the start of something beautiful.</p>
-        <form class="form-message" action="post">
+        <form class="form-message" method="post">
             <div class="row">
                 <div class="col">
                     <div class="form-group">
-                        <input type="text" id="user-name" class="form-control" placeholder="Your Name"
+                        <input type="text" id="user-name" name="name" class="form-control" placeholder="Your Name"
                             pattern="^[a-zA-Z]{1,20}$" title="Podaj poprawnie imie" required>
                     </div>
                 </div>
                 <div class="col">
                     <div class="form-group">
-                        <input type="email" id="user-email" class="form-control" placeholder="Your Email"
+                        <input type="email" id="user-email" name="email" class="form-control" placeholder="Your Email"
                             title="Podaj poprawnie email" required>
                     </div>
                 </div>
             </div>
             <div class="form-group">
-                <input type="text" id="user-title" class="form-control" placeholder="Your Title" pattern="[a-zA-Z0-9 ]+"
+                <input type="text" id="user-title" name="title" class="form-control" placeholder="Your Title" pattern="[a-zA-Z0-9 ]+"
                     title="Podaj poprawny title" required>
             </div>
             <div class="form-group">
-                <textarea class="form-control" rows="3" id="user-text" placeholder="Your Comment" maxlength="1000"
+                <textarea class="form-control" rows="3" id="user-text" name="text" placeholder="Your Comment" maxlength="1000"
                     title="Nie więcej 5-1000 symboli" required></textarea>
             </div>
-            <button type="submit" onclick="setData()">send message</button>
+            <button type="submit" name="send-message">send message</button>
         </form>
     </div>
 </section>

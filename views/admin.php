@@ -1,8 +1,10 @@
+<?
+    include(ROOT ."/views/head.php");
+    include(ROOT ."/views/header-admin.php");
+?>
 <section class="admin-header">
     <div class="container">
-        <h1>Admin Panel</h1>
-        <button class="btn btn-primary" id="show-data" type="submit">Watch data</button>
-        <button class="btn btn-danger" type="submit" id="delete-all" onclick="daleteAll()">Delete all</button>
+    <?php include(ROOT.'/components/alert_text.php');?>
         <table class="table table-dark table-data">
             <thead>
                 <tr>
@@ -19,3 +21,6 @@
         </table>
     </div>
 </section>
+<?
+    include(ROOT ."/views/footer.php");
+?>

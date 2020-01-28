@@ -74,6 +74,10 @@ function daleteAll(){
     window.location.reload();
 }
 
+$('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+ });
+
 $(function() {
 
     $(document).on("click", ".delete-storage", function() {

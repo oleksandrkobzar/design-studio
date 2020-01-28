@@ -14,7 +14,7 @@
                     <li><a href="#">Project</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li><a href="<?echo SRCPATH.'/login'?>">Login</a></li>
                 </ul>
             </div>
             <div class="col-6 col-sm-6 col-md-2">
